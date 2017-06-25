@@ -1,6 +1,6 @@
 {
   "name": "styled-atoms",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An implementation of atoms from atomic design using CSS modules.",
   "main": "dist/index.js",
   "scripts": {
