@@ -1,0 +1,2 @@
+
+export { Styled } from './atoms';
