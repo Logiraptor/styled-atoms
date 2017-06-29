@@ -1,7 +1,7 @@
 import * as React from 'react';
 
-export type TagName = keyof HTMLElementTagNameMap;
-export type TagProps<K extends TagName> = React.HTMLProps<HTMLElementTagNameMap[K]>
+export type TagName = keyof ElementTagNameMap;
+export type TagProps<K extends TagName> = React.HTMLProps<ElementTagNameMap[K]>
 
 export type Condition<T> = boolean | ((props: T) => boolean)
 
